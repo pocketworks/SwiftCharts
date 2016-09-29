@@ -64,7 +64,7 @@ public struct ChartAxisValuesGenerator {
         }
         segmentCount = ceil(segmentCount)
         while segmentCount < minSegmentCount {
-            segmentCount++
+            segmentCount += 1
         }
         segmentSize = currentMultiple
         
